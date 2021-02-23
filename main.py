@@ -1,7 +1,7 @@
 def removeEvens(k):
     potato = k
     numPopped = 0
-    for i in range (0, len(potato)-1):
+    for i in range (0, len(potato)):
         if potato[i - numPopped] % 2  == 0 and potato [i - numPopped] != 0:
             potato.pop(i - numPopped)
             numPopped = numPopped + 1
